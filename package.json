@@ -1,13 +1,30 @@
 {
   "name": "proxy-server",
   "version": "1.0.0",
-  "description": "A simple proxy server",
+  "description": "A simple proxy server for GitHub and Google Translate",
   "main": "proxy-server.js",
   "scripts": {
-    "start": "node proxy-server.js"
+    "start": "node proxy-server.js",
+    "build": "node proxy-server.js" // 假设你的构建过程就是启动服务器
   },
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asd15555866/proxy-server.git"
+  },
+  "keywords": [
+    "proxy",
+    "github",
+    "google-translate"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asd15555866/proxy-server/issues"
+  },
+  "homepage": "https://github.com/asd15555866/proxy-server#readme"
 }
