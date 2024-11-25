@@ -1,2 +1,13 @@
-npm install axios
-npm install cors
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A simple proxy server",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5"
+  }
+}
