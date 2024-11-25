@@ -5,7 +5,11 @@
   "main": "proxy-server.js",
   "scripts": {
     "start": "node proxy-server.js",
-    "build": "node proxy-server.js" // 假设你的构建过程就是启动服务器
+    "build": "node proxy-server.js",
+    "audit": "npm audit",
+    "fix-audit": "npm audit fix",
+    "force-fix-audit": "npm audit fix --force",
+    "update-npm": "npm install -g npm@latest"
   },
   "dependencies": {
     "axios": "^0.21.1",
