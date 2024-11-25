@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 监听80端口
-const PORT = 80;
+const PORT = 8080;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
